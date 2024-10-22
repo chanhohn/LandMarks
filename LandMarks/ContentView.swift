@@ -19,7 +19,7 @@ struct ContentView: View {
                 .padding(.bottom,-130)
             
             VStack(alignment:.leading) {
-                Text("Turtle Rock")
+                Text("Bell Tower")
                     .font(.title)
                     .foregroundStyle(.purple)
                 HStack {
