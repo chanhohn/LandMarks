@@ -9,14 +9,12 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Landmark: Hashable, Codable {
-//  一些基本的变量信息
+struct Landmark: Hashable, Codable ,Identifiable{
     var id: Int
     var name: String
     var park: String
     var state: String
     var description: String
-    
     private var imageName: String
     
 //定义一个Image类型的变量
